@@ -1,0 +1,57 @@
+h2{
+  font-size: 20px;
+}
+
+body{margin:0;
+  font-family: "Arial Narrow"
+}
+
+nav {
+  grid-column: 1/4;
+  display:flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  /* background-color: orange; */
+}
+
+nav div{
+  width:50%;
+  border: 1px ;
+  height:1vh;}
+
+.right{
+  text-align: right;
+}
+
+.images{
+  padding:2rem;
+  height:60vh;
+  overflow: auto;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  /* background: blue; */
+}
+
+.images img{
+  height:99%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.projects{
+  padding-top:2rem;
+  height:10vh;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  /* background: green; */
+}
+
+.projects div{
+  text-align: center;
+  font-size: 2rem;
+}
