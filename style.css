@@ -58,6 +58,7 @@ nav div{
   text-align: right;
 }
 
+@media screen and (min-width: 601px){
 .images{
   padding:2%;
   height:60vh;
@@ -68,8 +69,21 @@ nav div{
   margin-left: auto;
   margin-right: auto;
   width: 90vw;
-  /* background: blue; */
-}
+  background: blue;
+}}
+@media screen and (max-width: 600px){
+.images{
+  padding:2%;
+  height:100%;
+  overflow:auto;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90vw;
+  background: blue;
+}}
 
 @media screen and (min-width: 601px){
 .images img{
@@ -88,27 +102,20 @@ nav div{
 }}
 
 
-@media screen and (min-width: 601px){
+
 .projects{
   padding-top:2rem;
   height:10vh;
   grid-column-start: 1;
   grid-column-end: 4;
   /* background: green; */
-}}
-@media screen and (max-width: 600px){
-.projects{
-  height:10vh;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  /* background: green; */
-}}
+}
+
 
 .projects div{
   text-align: center;
   font-size: 2rem;
 }
-
 
 
 .projbody img{
