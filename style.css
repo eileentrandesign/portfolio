@@ -1,6 +1,17 @@
+
 h2{
-  font-size: 20px;
+  font-size: 1.5rem;
 }
+
+@media screen and (min-width: 601px){
+h1{
+  font-size: 3vw;
+}}
+
+@media screen and (max-width: 600px){
+h1{
+  font-size: 4vw;
+}}
 
 body{margin:0;
   font-family: "Arial Narrow"
@@ -24,24 +35,50 @@ nav div{
 }
 
 .images{
-  padding:2rem;
+  padding:2%;
   height:60vh;
-  overflow: auto;
+  overflow:auto;
   grid-column-start: 1;
   grid-column-end: 4;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 90vw;
   /* background: blue; */
 }
 
+@media screen and (min-width: 601px){
 .images img{
-  height:99%;
+  height:100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
+}}
+
+@media screen and (max-width: 600px){
+.images img{
+  width:100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}}
+
+.projbody{
+  padding:2rem;
+  overflow: auto;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 70%;
+  /* background: blue; */
 }
+
+.projbody img{
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 
 .projects{
   padding-top:2rem;
