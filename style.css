@@ -46,6 +46,8 @@ nav {
   display:flex;
   justify-content: space-evenly;
   padding: 2rem;
+  padding-top:0;
+  margin-top: 0;
   /* background-color: orange; */
 }
 
@@ -61,7 +63,8 @@ nav div{
 @media screen and (min-width: 601px){
 .images{
   padding:2%;
-  height:60vh;
+  padding-top:0;
+  height:65vh;
   overflow:auto;
   grid-column-start: 1;
   grid-column-end: 4;
@@ -104,8 +107,8 @@ nav div{
 
 @media screen and (min-width: 601px){
 .projects{
-  padding-left: 17rem;
-  padding-right: 17rem;
+  padding-left: 15rem;
+  padding-right: 15rem;
   height:10vh;
   grid-column-start: 1;
   grid-column-end: 4;
@@ -124,7 +127,7 @@ nav div{
   grid-column-end: 4;
   /* background: green; */
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }}
 
 
