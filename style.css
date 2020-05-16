@@ -38,7 +38,7 @@ a:active {
 }
 
 body{margin:0;
-  font-family: "Arial Narrow"
+  font-family: "Arial Narrow", Helvetica, sans-serif;
 }
 
 nav {
