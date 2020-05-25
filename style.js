@@ -1,3 +1,5 @@
+console.log("External Javascript Connected");
+
 $(document).ready(function () {
     var yOff = 15;
     var xOff = -20;
@@ -22,6 +24,7 @@ $(document).ready(function () {
             .css("left", (e.pageX + xOff) + "px");
     });
 });
+
 
 $(document).ready(function () {
     var yOff = 15;
