@@ -90,7 +90,7 @@ nav div{
 .images{
   padding-left: -500px;
   padding-top:0;
-  height:65vh;
+  height:60vh;
   overflow:auto;
   /* grid-column-start: 1;
   grid-column-end: 4; */
@@ -141,24 +141,24 @@ nav div{
   /* height:10vh; */
   /* grid-column-start: 1;
   grid-column-end: 4; */
-  /* background: green; */
   text-align: center;
   font-size: 2rem;
 }}
 
 @media screen and (min-width: 601px){
 .projects p {
-    font-size: 50px;
+    font-size: 30px;
     display:inline-block;
     display:block;
     float:left;
     line-height: 0;
-    padding: 2rem 2rem 0 2rem;
+    padding: 0rem 2rem 0 2rem;
     z-index: 100;
     position:relative;
     margin-block-start: 2%;
-    margin-block-end: 2%;
+    margin-block-end: 1%;
     z-index: 9999;
+    transform: translateY(65vh);
     }}
 
     @media screen and (min-width: 601px){
