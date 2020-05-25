@@ -13,16 +13,24 @@ h1{
   font-size: 5vw;
 }}
 
+p{
+  font-size: 2rem;
+}
+
 /* unvisited link */
 a:link {
   color: black;
   text-decoration: none;
 }
 
+.infolink{
+    text-decoration:underline;
+}
+
 /* visited link */
 a:visited {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* mouse over link */
@@ -136,6 +144,11 @@ nav div{
     }}
 
     @media screen and (min-width: 601px){
+    .projects p:hover {
+text-decoration: underline;
+      }}
+
+    @media screen and (min-width: 601px){
     .projects img {
     position: relative;
     z-index: 100;
@@ -160,16 +173,18 @@ nav div{
 
 a .hover-img {
   position: relative;
+  text-decoration:underline;
  }
 a .hover-img span {
   position: absolute;
   left: -9999px;
   top: -9999px;
-  /* z-index: 9999; */
+  text-decoration:underline;
  }
 a:hover .hover-img span {
   top: 20px;
   left: 0;
+  text-decoration:underline;
  }
 
 @media screen and (min-width: 601px){
