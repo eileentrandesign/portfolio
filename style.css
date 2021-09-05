@@ -1,8 +1,8 @@
 
 @font-face {
-    font-family: 'ornamentum_-_free_trialRg';
-    src: url('ornamentum-freetrial-regular-webfont.woff2') format('woff2'),
-         url('ornamentum-freetrial-regular-webfont.woff') format('woff');
+    font-family: 'Whyte-Inktrap-Regular';
+    src:
+         url('Whyte-Inktrap-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -26,7 +26,7 @@
 
 h2{
   font-size: 2.5rem;
-  font-family:'ornamentum_-_free_trialRg';
+  font-family:'Whyte-Inktrap-Regular';
 }
 
 @media screen and (min-width: 601px){
@@ -73,7 +73,8 @@ a:active {
 
 body{margin:0;
   font-family: 'cirkalight', 'akkuratregular', "Arial Narrow", Helvetica, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #333333;
+  color: #f1f1f1;
 }
 
 nav {
