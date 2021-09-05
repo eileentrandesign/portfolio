@@ -7,6 +7,15 @@
     font-style: normal;
 }
 
+
+@font-face {
+    font-family: 'Whyte-Inktrap-Bold';
+    src:
+         url('Whyte-Inktrap-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 @font-face {
     font-family: 'akkuratregular';
     src: url('ufonts.com_akkurat-opentype-webfont.woff2') format('woff2'),
@@ -26,13 +35,13 @@
 
 h3{
   font-size: 5.5rem;
-  font-family:'Whyte-Inktrap-Regular';
+  font-family:'Whyte-Inktrap-Bold';
   line-height: 1.3;
 }
 
 h2{
-  font-size: 2.5rem;
-  font-family:'Whyte-Inktrap-Regular';
+  font-size: 2rem;
+  font-family:'Whyte-Inktrap-Bold';
 }
 
 @media screen and (min-width: 601px){
@@ -51,7 +60,7 @@ p{
 
 /* unvisited link */
 a:link {
-  color: black;
+  color: #212121;
   text-decoration: none;
 }
 
@@ -61,26 +70,59 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: black;
+  color: #212121;
   text-decoration: underline;
 }
 
 /* mouse over link */
 a:hover {
-  color: black;
+  color: #212121;
   text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-  color: black;
+  color: #212121;
   text-decoration: underline;
 }
 
-body{margin:0;
-  font-family: 'cirkalight', 'akkuratregular', "Arial Narrow", Helvetica, sans-serif;
-  background-color: #333333;
-  color: #f1f1f1;
+body{
+  font-family: 'Whyte-Inktrap-Regular', 'akkuratregular', "Arial Narrow", Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.2;
+  color: #212121;
+  margin:0;
+  padding:0;
+  height: 100%;
+  /* overflow: hidden; */
+}
+
+/*HOME*/
+.container{
+  display: grid;
+  overflow-y: scroll;
+  grid-template-columns:20vw 80vw;
+  grid-template-rows:100%;
+}
+
+.d1{
+  /* background-color:white; */
+}
+
+.d1 img{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.d2{
+  /* background-color:white; */
+  margin: 100px 300px 0px 0px;
+  padding:0px 100px 100px 0px;
+  overflow-y: scroll;
+min-width: 200px;
+height: 60vh;
 }
 
 nav {
