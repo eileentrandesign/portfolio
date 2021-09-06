@@ -29,7 +29,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     var yOff = 15;
     var xOff = -20;
-    var pathToImage = "me.jpeg";
+    var pathToImage = "DSC_0256.png";
 
     $(".text-hover-image-me").hover(function (e) {
         $("body").append("<p id='image-when-hovering-text'><img src='" + pathToImage + "'/></p>");

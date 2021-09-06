@@ -213,10 +213,10 @@ nav div{
     padding: 0rem 2rem 0 2rem;
     z-index: 100;
     position:relative;
-    margin-block-start: 3%;
+    margin-block-start: 2.7%;
     margin-block-end: -.5%;
     z-index: 9999;
-    transform: translateY(77vh);
+    transform: translateY(78vh);
     }}
 
     @media screen and (min-width: 601px){
@@ -236,8 +236,8 @@ text-decoration: underline;
 @media screen and (max-width: 600px){
 .projects{
   padding-top:2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
   height:10vh;
   grid-column-start: 1;
   grid-column-end: 4;
@@ -317,3 +317,5 @@ a:hover .hover-img span {
 #back2Top:hover {
     color: #000;
 }
+
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/holidays/hol-4/hol317.cur), auto !important;} /* End https://www.cursors-4u.com */
