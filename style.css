@@ -40,7 +40,7 @@ h3{
 }
 
 h2{
-  font-size: 2rem;
+  font-size: 1.7rem;
   font-family:'Whyte-Inktrap-Bold';
 }
 
@@ -205,7 +205,7 @@ nav div{
 
 @media screen and (min-width: 601px){
 .projects p {
-    font-size: 23px;
+    font-size: 1.2rem;
     display:inline-block;
     display:block;
     float:left;
@@ -213,10 +213,10 @@ nav div{
     padding: 0rem 2rem 0 2rem;
     z-index: 100;
     position:relative;
-    margin-block-start: 2%;
-    margin-block-end: .5%;
+    margin-block-start: 3%;
+    margin-block-end: -.5%;
     z-index: 9999;
-    transform: translateY(75vh);
+    transform: translateY(77vh);
     }}
 
     @media screen and (min-width: 601px){
@@ -266,9 +266,10 @@ a:hover .hover-img span {
 @media screen and (min-width: 601px){
 .projbody{
   padding-bottom: 2rem;
-  padding-left:2rem;
+  padding-top:0;
+  padding-left:7rem;
   padding-right: 2rem;
-  overflow: auto;
+  /* overflow: auto; */
   grid-column-start: 1;
   grid-column-end: 4;
   width: 60%;
