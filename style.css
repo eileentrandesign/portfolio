@@ -188,6 +188,47 @@ text-justify: inter-word;
   z-index: 100;
 }}
 
+/*MOBILE ABOUT*/
+@media screen and (max-width: 600px){
+.about{
+  font-size: .7em;
+  text-align: justify;
+text-justify: inter-word;
+  padding-left: 0vw;
+  padding-top:5rem;
+  height:70vh;
+  overflow:auto;
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  display: block;
+  margin-left: -3rem;
+  margin-right: auto;
+  width: 90vw;
+  /* background: blue; */
+  position:relative;
+  z-index: 100;
+}}
+
+@media screen and (max-width: 600px){
+.sub-about{
+  font-size: .45em;
+  text-align: justify;
+text-justify: inter-word;
+  padding-top:17rem;
+  height:70vh;
+  /* overflow:auto; */
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  display: block;
+  margin-left: -3rem;
+  width: 90vw;
+  /* background: blue; */
+  position:relative;
+  z-index: 100;
+}}
+
+
+
 @media screen and (max-width: 600px){
 .images{
   padding:2%;
