@@ -196,7 +196,7 @@ text-justify: inter-word;
 text-justify: inter-word;
   padding-left: 0vw;
   padding-top:5rem;
-  height:70vh;
+  height:40vh;
   overflow:auto;
   /* grid-column-start: 1;
   grid-column-end: 4; */
@@ -215,7 +215,7 @@ text-justify: inter-word;
   text-align: justify;
 text-justify: inter-word;
   padding-top:17rem;
-  height:70vh;
+  height:40vh;
   /* overflow:auto; */
   /* grid-column-start: 1;
   grid-column-end: 4; */
