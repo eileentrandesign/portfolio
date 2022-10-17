@@ -77,8 +77,8 @@ $(document).ready(function() {
  /*Scroll to top when arrow up clicked END*/
 
 
- function random_3(){
-     var myrandom=Math.round(Math.random()*6)
+ function random_5(){
+     var myrandom=Math.round(Math.random()*5)
      var link1="https://weathergradient.com/"
      var link2="https://checkboxrace.com/"
      var link3="http://www.workweek.info/"
