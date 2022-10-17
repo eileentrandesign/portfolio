@@ -56,7 +56,7 @@ a:link {
 /* visited link */
 a:visited {
   color: #2D2B25;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 /* mouse over link */
@@ -68,14 +68,14 @@ a:hover {
 /* selected link */
 a:active {
   color: #2D2B25;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 body{
   font-family: 'basel_groteskregular', Helvetica, sans-serif;
   background-color: #DEDCD2;
   line-height: 1.2;
-  color: #DEDCD2;
+  color: #2D2B25;
   margin:0;
   padding:0;
   height: 100%;
@@ -133,7 +133,7 @@ nav div{
 
 @media screen and (min-width: 601px){
 .images{
-  padding-left: -500px;
+  padding-left: 25vw;
   padding-top:0;
   height:70vh;
   overflow:auto;
@@ -142,7 +142,47 @@ nav div{
   display: block;
   margin-left: 2rem;
   margin-right: auto;
-  width: 90vw;
+  width: 50vw;
+  /* background: blue; */
+  position:relative;
+  z-index: 100;
+}}
+
+@media screen and (min-width: 601px){
+.about{
+  font-size: .7em;
+  text-align: justify;
+text-justify: inter-word;
+  padding-left: 23vw;
+  padding-top:10rem;
+  height:70vh;
+  overflow:auto;
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  display: block;
+  margin-left: 0rem;
+  margin-right: auto;
+  width: 50vw;
+  /* background: blue; */
+  position:relative;
+  z-index: 100;
+}}
+
+@media screen and (min-width: 601px){
+.sub-about{
+  font-size: .4em;
+  text-align: justify;
+text-justify: inter-word;
+  padding-left: 23vw;
+  padding-top:20rem;
+  height:70vh;
+  overflow:auto;
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+  display: block;
+  margin-left: 0rem;
+  margin-right: auto;
+  width: 50vw;
   /* background: blue; */
   position:relative;
   z-index: 100;
@@ -180,6 +220,16 @@ nav div{
   margin-right: auto;
 }}
 
+@media screen and (min-width: 601px){
+span.c {
+/* transform: translateY(10vh); */
+  display: block;
+  width: 200px;
+  height: 20px;
+  padding: .2rem 0rem .2rem 1rem;
+  /* border: 1px solid blue;
+  background-color: white; */
+}}
 
 @media screen and (min-width: 601px){
 .projects{
@@ -189,6 +239,8 @@ nav div{
   grid-column-end: 4; */
   text-align: center;
   font-size: 2rem;
+  display: block !important;
+
 }}
 
 /*HOME PAGE PROJECT LINKS - DESKTOP*/
@@ -197,19 +249,20 @@ nav div{
     font-size: 1.2rem;
     display: block !important;
     float:left;
-    padding: 0rem 2rem 0rem 2rem;
+    /* padding: 0rem 2rem 0rem 2rem; */
     /* z-index: 100; */
     position: relative;
     /* margin-block-start: 2.7%; */
     /* margin-block-end: -.5%; */
     z-index: 9999;
     transform: translateY(10vh);
-    background-color: blue;
+    /* background-color: white; */
+
     }}
 
     @media screen and (min-width: 601px){
     .projects p:hover {
-text-decoration: underline;
+/* text-decoration: underline; */
       }}
 
     @media screen and (min-width: 601px){
@@ -217,6 +270,7 @@ text-decoration: underline;
     position: relative;
     z-index: 100;
   }}
+
 
 
 
@@ -237,19 +291,45 @@ text-decoration: underline;
 
 a .hover-img {
   position: relative;
-  text-decoration:underline;
+  /* text-decoration:underline; */
  }
 a .hover-img span {
   position: absolute;
   left: -9999px;
   top: -9999px;
-  text-decoration:underline;
+  /* text-decoration:underline; */
  }
 a:hover .hover-img span {
   top: 20px;
   left: 0;
-  text-decoration:underline;
+  /* text-decoration:underline; */
  }
+
+ /*this makes About underlined!*/
+
+   .underline-on-hover .hover-img {
+   position: relative;
+   /* text-decoration:underline; */
+  }
+  .underline-on-hover .hover-img span {
+   position: absolute;
+   left: -9999px;
+   top: -9999px;
+   /* text-decoration:underline; */
+  }
+
+  .underline-on-hover:hover .hover-img p {
+    position: relative;
+   text-decoration:underline;
+  }
+
+ .underline-on-hover:hover .hover-img span {
+   top: 20px;
+   left: 0;
+   /* text-decoration:underline; */
+  }
+
+
 
 @media screen and (min-width: 601px){
 .projbody{

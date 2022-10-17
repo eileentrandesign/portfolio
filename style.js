@@ -1,3 +1,7 @@
+
+
+
+
 console.log("External Javascript Connected");
 
 $(document).ready(function () {
@@ -71,3 +75,28 @@ $(document).ready(function() {
 
 });
  /*Scroll to top when arrow up clicked END*/
+
+
+
+
+ function random_3(){
+     var myrandom=Math.round(Math.random()*6)
+     var link1="http://www.codingforums.com"
+     var link2="https://checkboxrace.com/"
+     var link3="http://www.workweek.info/"
+     var link4="https://pointerpointer.com/"
+     var link5="https://9-eyes.com/"
+     var link6="https://www.youtube.com/watch?v=tDacjrSCeq4"
+     if (myrandom==0)
+         window.location=link1
+     else if (myrandom==1)
+         window.location=link2
+     else if (myrandom==2)
+         window.location=link3
+     else if (myrandom==3)
+         window.location=link4
+     else if (myrandom==4)
+         window.location=link5
+     else if (myrandom==5)
+         window.location=link6
+ }
