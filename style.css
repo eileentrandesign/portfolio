@@ -88,7 +88,6 @@ body{
   overflow-y: scroll;
   grid-template-columns:20vw 80vw;
   grid-template-rows:100%;
-  border-color:white;
 }
 
 .d1{
@@ -110,7 +109,7 @@ display: block;
 }
 
 .music{
-  margin-top: 85vh;
+  position:fixed; width:100%; height:80px; bottom:0px;
 }
 
 nav {
@@ -148,6 +147,7 @@ nav div{
   position:relative;
   z-index: 100;
 }}
+
 @media screen and (max-width: 600px){
 .images{
   padding:2%;
@@ -191,20 +191,20 @@ nav div{
   font-size: 2rem;
 }}
 
+/*HOME PAGE PROJECT LINKS - DESKTOP*/
 @media screen and (min-width: 601px){
 .projects p {
     font-size: 1.2rem;
-    display:inline-block;
-    display:block;
+    display: block !important;
     float:left;
-    line-height: 0;
-    padding: 0rem 2rem 0 2rem;
-    z-index: 100;
-    position:relative;
-    margin-block-start: 2.7%;
-    margin-block-end: -.5%;
+    padding: 0rem 2rem 0rem 2rem;
+    /* z-index: 100; */
+    position: relative;
+    /* margin-block-start: 2.7%; */
+    /* margin-block-end: -.5%; */
     z-index: 9999;
-    transform: translateY(78vh);
+    transform: translateY(10vh);
+    background-color: blue;
     }}
 
     @media screen and (min-width: 601px){
@@ -231,7 +231,7 @@ text-decoration: underline;
   grid-column-end: 4;
   /* background: green; */
   text-align: center;
-  font-size: 1.5rem;
+  font-size:1.5rem;
 }}
 
 
