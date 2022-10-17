@@ -77,16 +77,15 @@ $(document).ready(function() {
  /*Scroll to top when arrow up clicked END*/
 
 
-
-
  function random_3(){
      var myrandom=Math.round(Math.random()*6)
-     var link1="http://www.codingforums.com"
+     var link1="https://weathergradient.com/"
      var link2="https://checkboxrace.com/"
      var link3="http://www.workweek.info/"
      var link4="https://pointerpointer.com/"
      var link5="https://9-eyes.com/"
      var link6="https://www.youtube.com/watch?v=tDacjrSCeq4"
+
      if (myrandom==0)
          window.location=link1
      else if (myrandom==1)
@@ -99,4 +98,9 @@ $(document).ready(function() {
          window.location=link5
      else if (myrandom==5)
          window.location=link6
+
  }
+
+ function openInNewTab(url) {
+  window.open(url, '_blank').focus();
+}
